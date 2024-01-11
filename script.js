@@ -46,13 +46,13 @@ function calculateAge() {
     const minutes = Math.floor(remainingSecondsAfterHours / 60);
     const seconds = Math.floor(remainingSecondsAfterHours % 60);
 
-    const styledResult = "<span style='color: #ffffff;'>You lived for </span>" +
+    const styledResult = "<span style='color: #ffffff;'>You've been alive for </span>" +
     `<span style='font-weight: bold; color: #FFDD95;'>${years}  </span>` +"<span style='color: #ffffff;'>years, </span>"+
     `<span style='font-weight: bold; color: #FFDD95;'>${months} </span>` + "<span style='color: #ffffff;'>months, </span>"+
     `<span style='font-weight: bold; color: #FFDD95;'>${days} </span>` + "<span style='color: #ffffff;'>days, </span>"+
     `<span style='font-weight: bold; color: #FFDD95;'>${hours} </span>` + "<span style='color: #ffffff;'>hours, and </span>"+
     `<span style='font-weight: bold; color: #FFDD95;'>${minutes}  </span>` + "<span style='color: #ffffff;'>minutes, </span>"+
-    `<span style='font-weight: bold; color: #FFDD95;'>${seconds}  </span>`+ "<span style='color: #ffffff;'>seconds, </span>" +"<span style='color: #ffffff;'>Keep going you worth it ! </span>" ;
+    `<span style='font-weight: bold; color: #FFDD95;'>${seconds}  </span>`+ "<span style='color: #ffffff;'>seconds. </span>" +"<span style='color: #ffffff;'>Keep going, you're worth it ! </span>" ;
 
 document.getElementById("result").innerHTML = styledResult;
 }
